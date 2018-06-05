@@ -1,12 +1,16 @@
 # webBuilder
 **Under construction**
-## installation
+## Installation
 
  1. Install this repo.
- 2. Create a new folder and include a file `startSite.js` with the following code:
+ 2. Create a new folder and include a file `setupSite.js` with the following code:
  ```javascript
- var wb = require('webBuilder');
- var options = {port:'8080'}
- wb.start(options);
+ var webBuilder = require('webBuilder');
+ var site = webBuilder.Setup();
  ```
  3. Run the file and navigate in your browser to: `localhost:8080`
+ 4. To re-run your site: Include a file `startSite.js` with the following code:
+ ```javascript
+ var webBuilder = require('webBuilder');
+ var site = new webBuilder.Site();
+ ```
