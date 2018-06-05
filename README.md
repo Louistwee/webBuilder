@@ -14,3 +14,13 @@
  var webBuilder = require('webBuilder');
  var site = new webBuilder.Site();
  ```
+ ## Plugins
+ 
+ Plugins can be used to add advanced features to your site
+ 
+ ### Where to find Plugins?
+ 
+ Look in the Plugin Branch of this repo.
+ 
+ ### Write Plugins
+ 
