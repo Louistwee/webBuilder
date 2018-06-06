@@ -24,3 +24,10 @@
  
  ### Write Plugins
  
+ ```javascript
+module.exports = {
+ init:function(Site){
+  //This Function is called when the plugin is loaded;
+ }
+}
+ ```
